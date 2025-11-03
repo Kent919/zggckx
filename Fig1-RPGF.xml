@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-07-02T00:00:00.000Z" version="21.7.8" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36">
+  <diagram name="Fig1_RPGF_Journal" id="Fig1_RPGF_Journal">
+    <mxGraphModel dx="1022" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 图标题 -->
+        <mxCell id="title" value="Fig 1.  Three-Stage Evolution of the Risk-Probability Governance Paradigm (RPGF)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=Arial" vertex="1" parent="1">
+          <mxGeometry x="200" y="10" width="400" height="25" as="geometry"/>
+        </mxCell>
+
+        <!-- Stage 1 框 -->
+        <mxCell id="stage1" value="Stage 1: Technical Control Paradigm (2000s–2010s)&#xa;• Means: encryption, access control, firewall&#xa;• Goal: technical safety protection&#xa;• Feature: tech-oriented, no institutional linkage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;fontFamily=Arial" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="640" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- Stage 2 框 -->
+        <mxCell id="stage2" value="Stage 2: Static Compliance Paradigm (2016–2020s)&#xa;• Means: compliance checklist, security filing&#xa;• Goal: meet regulatory baseline&#xa;• Feature: rule-oriented, no dynamic adjustment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0277BD;fontSize=12;fontFamily=Arial" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="640" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- Stage 3 高亮框 -->
+        <mxCell id="stage3" value="Stage 3: Dynamic Risk Paradigm (2020s–Future)&#xa;• Means: ICC, RPS, Bayesian cumulative&#xa;• Goal: dynamic balance of security & development&#xa;• Feature: computable, adaptable, tech-institution nexus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontFamily=Arial" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="640" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- 演进箭头 -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="140" as="sourcePoint"/>
+            <mxPoint x="400" y="160" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint"/>
+            <mxPoint x="400" y="270" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 演进标注 -->
+        <mxCell id="label1" value="Security → Compliance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Arial;textColor=#666666" vertex="1" parent="1">
+          <mxGeometry x="470" y="145" width="120" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="label2" value="Compliance → Dynamic Precision" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Arial;textColor=#0277BD" vertex="1" parent="1">
+          <mxGeometry x="470" y="255" width="160" height="20" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
