@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net">
+    <diagram name="Fig. 3 动态风险治理系统架构" id="uK5HcF6w1d3Jg-aI4uN-">
+        <mxGraphModel dx="1022" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                
+                <!-- 图表标题 -->
+                <mxCell id="title" value="&lt;b&gt;Fig. 3 动态风险治理系统架构&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="20" width="250" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- 策略执行与反馈层 -->
+                <mxCell id="layer3" value="&lt;b&gt;策略执行与反馈层&lt;/b&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="80" width="700" height="150" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="layer3_title" value="&lt;b&gt;策略执行与反馈&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="90" width="120" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- 策略执行模块 -->
+                <mxCell id="policy_exec" value="&lt;b&gt;梯度化策略执行器&lt;/b&gt;&lt;br&gt;• P_t &lt; 0.3: 允许传输&lt;br&gt;• 0.3 ≤ P_t &lt; 0.7: 增强控制&lt;br&gt;• P_t ≥ 0.7: 阻断告警" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="130" width="180" height="90" as="geometry"/>
+                </mxCell>
+
+                <!-- 反馈学习模块 -->
+                <mxCell id="feedback" value="&lt;b&gt;反馈学习循环&lt;/b&gt;&lt;br&gt;执行效果反馈&lt;br&gt;模型参数优化&lt;br&gt;持续学习演进" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="130" width="180" height="90" as="geometry"/>
+                </mxCell>
+
+                <!-- 风险计算引擎层 -->
+                <mxCell id="layer2" value="&lt;b&gt;风险计算引擎层&lt;/b&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="250" width="700" height="200" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="layer2_title" value="&lt;b&gt;风险计算引擎&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="260" width="120" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- ICC计算模块 -->
+                <mxCell id="icc_module" value="&lt;b&gt;制度耦合系数计算&lt;/b&gt;&lt;br&gt;全球数字规则知识图谱&lt;br&gt;NLP自动解析&lt;br&gt;实时ICC计算" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="300" width="160" height="90" as="geometry"/>
+                </mxCell>
+
+                <!-- 贝叶斯评估模块 -->
+                <mxCell id="bayesian_module" value="&lt;b&gt;贝叶斯动态评估&lt;/b&gt;&lt;br&gt;流式计算框架&lt;br&gt;实时风险概率P_t&lt;br&gt;动态演化追踪" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="300" width="160" height="90" as="geometry"/>
+                </mxCell>
+
+                <!-- 风险可视化模块 -->
+                <mxCell id="visualization" value="&lt;b&gt;风险可视化审计&lt;/b&gt;&lt;br&gt;全局风险态势&lt;br&gt;轨迹可视化&lt;br&gt;合规审计接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="300" width="160" height="90" as="geometry"/>
+                </mxCell>
+
+                <!-- 数据采集与感知层 -->
+                <mxCell id="layer1" value="&lt;b&gt;数据采集与感知层&lt;/b&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="470" width="700" height="180" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="layer1_title" value="&lt;b&gt;数据采集与感知&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="480" width="120" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- 加密流量采集 -->
+                <mxCell id="traffic_collect" value="&lt;b&gt;加密流量元数据&lt;/b&gt;&lt;br&gt;TLS握手特征&lt;br&gt;包长时序分析&lt;br&gt;流持续时间统计" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="520" width="150" height="90" as="geometry"/>
+                </mxCell>
+
+                <!-- 服务网格追踪 -->
+                <mxCell id="mesh_trace" value="&lt;b&gt;云原生链路追踪&lt;/b&gt;&lt;br&gt;Service Mesh集成&lt;br&gt;风险标签传播&lt;br&gt;多跳路由追踪" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="520" width="150" height="90" as="geometry"/>
+                </mxCell>
+
+                <!-- 日志审计聚合 -->
+                <mxCell id="log_aggregate" value="&lt;b&gt;日志审计数据聚合&lt;/b&gt;&lt;br&gt;业务系统日志&lt;br&gt;API网关日志&lt;br&gt;统一数据视图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="520" width="150" height="90" as="geometry"/>
+                </mxCell>
+
+                <!-- 数据库图标 -->
+                <mxCell id="database" value="&lt;b&gt;分布式存储&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="540" width="100" height="60" as="geometry"/>
+                </mxCell>
+
+                <!-- 箭头连接 -->
+                <!-- 数据层到计算层 -->
+                <mxCell id="arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="155" y="470" as="sourcePoint"/>
+                        <mxPoint x="155" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                
+                <mxCell id="arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="335" y="470" as="sourcePoint"/>
+                        <mxPoint x="335" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                
+                <mxCell id="arrow3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="515" y="470" as="sourcePoint"/>
+                        <mxPoint x="515" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+
+                <!-- 计算层到执行层 -->
+                <mxCell id="arrow4" value="实时风险概率P_t" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=11;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="190" y="250" as="sourcePoint"/>
+                        <mxPoint x="190" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                
+                <mxCell id="arrow5" value="制度风险参数" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontSize=11;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="250" as="sourcePoint"/>
+                        <mxPoint x="360" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+
+                <!-- 反馈箭头 -->
+                <mxCell id="arrow6" value="执行效果反馈" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#4ECDC4;fontSize=11;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="610" y="130" as="sourcePoint"/>
+                        <mxPoint x="610" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+
+                <!-- 数据流箭头 -->
+                <mxCell id="arrow7" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="670" y="560" as="sourcePoint"/>
+                        <mxPoint x="670" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+
+                <!-- 模块间连接 -->
+                <mxCell id="arrow8" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="icc_module" target="bayesian_module">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="345" as="sourcePoint"/>
+                        <mxPoint x="280" y="345" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                
+                <mxCell id="arrow9" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1" source="bayesian_module" target="visualization">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="345" as="sourcePoint"/>
+                        <mxPoint x="480" y="345" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+
+                <!-- 层间说明 -->
+                <mxCell id="desc1" value="&lt;b&gt;数据驱动&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="350" width="60" height="20" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="desc2" value="&lt;b&gt;概率驱动&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;rotation=-90;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="180" width="60" height="20" as="geometry"/>
+                </mxCell>
+
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
