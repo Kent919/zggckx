@@ -12,17 +12,17 @@
         </mxCell>
 
         <!-- Stage 1 框 -->
-        <mxCell id="stage1" value="Stage 1: Technical Control Paradigm (2000s–2010s)&#xa;• Means: encryption, access control, firewall&#xa;• Goal: technical safety protection&#xa;• Feature: tech-oriented, no institutional linkage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;fontFamily=Arial" vertex="1" parent="1">
+        <mxCell id="stage1" value="Stage 1: Technical Control Paradigm (2000s–2010s)&amp;#xa;• Means: encryption, access control, firewall&amp;#xa;• Goal: technical safety protection&amp;#xa;• Feature: tech-oriented, no institutional linkage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=12;fontFamily=Arial" vertex="1" parent="1">
           <mxGeometry x="80" y="50" width="640" height="90" as="geometry"/>
         </mxCell>
 
         <!-- Stage 2 框 -->
-        <mxCell id="stage2" value="Stage 2: Static Compliance Paradigm (2016–2020s)&#xa;• Means: compliance checklist, security filing&#xa;• Goal: meet regulatory baseline&#xa;• Feature: rule-oriented, no dynamic adjustment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0277BD;fontSize=12;fontFamily=Arial" vertex="1" parent="1">
+        <mxCell id="stage2" value="Stage 2: Static Compliance Paradigm (2016–2020s)&amp;#xa;• Means: compliance checklist, security filing&amp;#xa;• Goal: meet regulatory baseline&amp;#xa;• Feature: rule-oriented, no dynamic adjustment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0277BD;fontSize=12;fontFamily=Arial" vertex="1" parent="1">
           <mxGeometry x="80" y="160" width="640" height="90" as="geometry"/>
         </mxCell>
 
         <!-- Stage 3 高亮框 -->
-        <mxCell id="stage3" value="Stage 3: Dynamic Risk Paradigm (2020s–Future)&#xa;• Means: ICC, RPS, Bayesian cumulative&#xa;• Goal: dynamic balance of security & development&#xa;• Feature: computable, adaptable, tech-institution nexus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontFamily=Arial" vertex="1" parent="1">
+        <mxCell id="stage3" value="Stage 3: Dynamic Risk Paradigm (2020s–Future)&amp;#xa;• Means: ICC, RPS, Bayesian cumulative&amp;#xa;• Goal: dynamic balance of security &amp; development&amp;#xa;• Feature: computable, adaptable, tech-institution nexus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontFamily=Arial" vertex="1" parent="1">
           <mxGeometry x="80" y="270" width="640" height="90" as="geometry"/>
         </mxCell>
 
