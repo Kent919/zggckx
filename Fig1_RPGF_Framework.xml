@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net">
+    <diagram name="图1. 风险概率治理范式理论框架" id="uK5HcF6w1d3Jg-aI4uN-">
+        <mxGraphModel dx="1022" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                
+                <!-- 图表标题 -->
+                <mxCell id="title" value="&lt;b&gt;图1. 风险概率治理范式理论框架&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="20" width="300" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- 制度耦合系数模型框架 -->
+                <mxCell id="icc_frame" value="" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="70" width="320" height="380" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="icc_title" value="&lt;b&gt;制度耦合系数模型&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="80" width="160" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- 多源制度数据 -->
+                <mxCell id="data_input" value="&lt;b&gt;多源制度数据&lt;/b&gt;&lt;br&gt;• 法律文本&lt;br&gt;• 监管实践&lt;br&gt;• 国际协议" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="130" width="200" height="100" as="geometry"/>
+                </mxCell>
+
+                <!-- ICC计算公式 -->
+                <mxCell id="icc_formula" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;ICC计算公式&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;ICC(c,r) = α·S(c) + β·C(c,r) + γ·P(r)&lt;br&gt;&lt;br&gt;• S(c): 制度严格性&lt;br&gt;• C(c,r): 规则兼容性&lt;br&gt;• P(r): 协议约束力&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="250" width="200" height="120" as="geometry"/>
+                </mxCell>
+
+                <!-- 制度耦合系数输出 -->
+                <mxCell id="icc_output" value="&lt;b&gt;制度耦合系数&lt;/b&gt;&lt;br&gt;ICC ∈ [0, 1]&lt;br&gt;值越高风险越低" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="390" width="200" height="50" as="geometry"/>
+                </mxCell>
+
+                <!-- 风险概率空间框架 -->
+                <mxCell id="rps_frame" value="" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="70" width="320" height="380" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="rps_title" value="&lt;b&gt;风险概率空间动态评估&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="80" width="200" height="30" as="geometry"/>
+                </mxCell>
+
+                <!-- 实时技术证据 -->
+                <mxCell id="tech_evidence" value="&lt;b&gt;实时技术证据&lt;/b&gt;&lt;br&gt;• 加密流量特征&lt;br&gt;• 行为异常指标&lt;br&gt;• 调用频率突变" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="130" width="200" height="100" as="geometry"/>
+                </mxCell>
+
+                <!-- 集成先验计算 -->
+                <mxCell id="prior_calc" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;集成先验计算&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;P_prior(B_t) = &lt;br&gt;λ·(1-ICC) + (1-λ)·P_tech(B_t)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="250" width="200" height="80" as="geometry"/>
+                </mxCell>
+
+                <!-- 贝叶斯动态更新 -->
+                <mxCell id="bayesian_update" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;贝叶斯动态更新&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;P_t = L(B_t)·[ω·P_prior + &lt;br&gt;(1-ω)·P_{t-1}] / Denominator&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="350" width="200" height="80" as="geometry"/>
+                </mxCell>
+
+                <!-- 当前风险概率 -->
+                <mxCell id="current_risk" value="&lt;b&gt;当前风险概率&lt;/b&gt;&lt;br&gt;P_t ∈ [0, 1]&lt;br&gt;实时风险评估值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="450" width="200" height="50" as="geometry"/>
+                </mxCell>
+
+                <!-- 历史风险状态 -->
+                <mxCell id="history_risk" value="&lt;b&gt;历史风险状态&lt;/b&gt;&lt;br&gt;P_{t-1}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="750" y="350" width="100" height="50" as="geometry"/>
+                </mxCell>
+
+                <!-- 箭头连接 -->
+                <!-- ICC模型内部箭头 -->
+                <mxCell id="arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="data_input" target="icc_formula">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="230" as="sourcePoint"/>
+                        <mxPoint x="200" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                
+                <mxCell id="arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="icc_formula" target="icc_output">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="370" as="sourcePoint"/>
+                        <mxPoint x="200" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+
+                <!-- RPS模型内部箭头 -->
+                <mxCell id="arrow3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="tech_evidence" target="prior_calc">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="230" as="sourcePoint"/>
+                        <mxPoint x="600" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                
+                <mxCell id="arrow4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="prior_calc" target="bayesian_update">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="330" as="sourcePoint"/>
+                        <mxPoint x="600" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                
+                <mxCell id="arrow5" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1" source="bayesian_update" target="current_risk">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="430" as="sourcePoint"/>
+                        <mxPoint x="600" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+
+                <!-- 跨模型连接：ICC输出到集成先验 -->
+                <mxCell id="cross_arrow1" value="&lt;b&gt;制度风险输入&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#FF6B6B;fontSize=14;" edge="1" parent="1" source="icc_output" target="prior_calc">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="415" as="sourcePoint"/>
+                        <mxPoint x="500" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+
+                <!-- 反馈循环：历史风险到贝叶斯更新 -->
+                <mxCell id="feedback_arrow" value="&lt;b&gt;反馈循环&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#4ECDC4;fontSize=14;" edge="1" parent="1" source="history_risk" target="bayesian_update">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="750" y="375" as="sourcePoint"/>
+                        <mxPoint x="700" y="375" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+
+                <!-- 核心创新标注 -->
+                <mxCell id="innovation" value="&lt;b&gt;范式核心：制度与技术双轮驱动&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="480" width="200" height="30" as="geometry"/>
+                </mxCell>
+
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
