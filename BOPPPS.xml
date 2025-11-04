@@ -1,0 +1,127 @@
+<BOPPPS_Teaching_Design>
+  <Course_Info>
+    <Course_Name>统计学基础-第四章数据集中趋势的测度</Course_Name>
+    <Teaching_Platform>广科智课平台</Teaching_Platform>
+    <Teaching_Time>两节课，共90分钟</Teaching_Time>
+  </Course_Info>
+
+  <!-- BOPPPS教学模式六个阶段 -->
+  <BOPPPS_Flow>
+
+    <!-- 1. 导入阶段 -->
+    <Bridge_in>
+      <Time>课前+课中5分钟</Time>
+      <Activities>
+        <Activity>学生在平台学习视频、电子教材、课件</Activity>
+        <Activity>完成课前测试和问题收集</Activity>
+        <Activity>课堂签到和出勤确认</Activity>
+        <Activity>课前五分钟快速回顾</Activity>
+      </Activities>
+      <Objective>激发学习兴趣，建立知识连接</Objective>
+    </Bridge_in>
+
+    <!-- 2. 目标阶段 -->
+    <Objective>
+      <Time>第一节课开始</Time>
+      <Learning_Objectives>
+        <Objective>理解平均数的概念、作用和计算方法</Objective>
+        <Objective>掌握算术平均数、几何平均数、调和平均数的计算和应用</Objective>
+        <Objective>理解中位数、四分位数、众数的概念和特点</Objective>
+        <Objective>能够比较不同统计量的适用场景</Objective>
+        <Objective>运用统计知识分析实际问题</Objective>
+      </Learning_Objectives>
+    </Objective>
+
+    <!-- 3. 前测阶段 -->
+    <Pre_assessment>
+      <Time>课前+第一节课10分钟</Time>
+      <Assessment_Methods>
+        <Method>课前在线测试</Method>
+        <Method>案例分析参与度观察</Method>
+        <Method>课堂小测（数值平均数）</Method>
+      </Assessment_Methods>
+      <Purpose>了解学生前置知识掌握情况</Purpose>
+    </Pre_assessment>
+
+    <!-- 4. 参与式学习阶段 -->
+    <Participatory_Learning>
+      <Time>第一节课20分钟+第二节课20分钟</Time>
+      
+      <First_Session>
+        <Segment>
+          <Title>新课讲解-数值平均数</Title>
+          <Duration>20分钟</Duration>
+          <Content>
+            <SubTopic>平均数概念和作用</SubTopic>
+            <SubTopic>算术平均数（简单、加权）</SubTopic>
+            <SubTopic>几何平均数（概念、公式、应用）</SubTopic>
+            <SubTopic>调和平均数（简单、加权）</SubTopic>
+          </Content>
+          <Teaching_Method>讲授+示例演示</Teaching_Method>
+        </Segment>
+      </First_Session>
+
+      <Second_Session>
+        <Segment>
+          <Title>新课讲解-位置平均数</Title>
+          <Duration>20分钟</Duration>
+          <Content>
+            <SubTopic>中位数的概念和特点</SubTopic>
+            <SubTopic>四分位数的计算和应用</SubTopic>
+            <SubTopic>众数的概念和特点</SubTopic>
+            <SubTopic>三种统计量的比较分析</SubTopic>
+          </Content>
+          <Teaching_Method>对比分析+实例讲解</Teaching_Method>
+        </Segment>
+      </Second_Session>
+
+      <Interactive_Activities>
+        <Activity>案例分析讨论</Activity>
+        <Activity>课程思政：居民收入水平统计方法探讨</Activity>
+        <Activity>个人生活实例分享</Activity>
+      </Interactive_Activities>
+    </Participatory_Learning>
+
+    <!-- 5. 后测阶段 -->
+    <Post_assessment>
+      <Time>第一节课10分钟+第二节课10分钟</Time>
+      <Assessment_Activities>
+        <Assessment>
+          <Time>第一节课末</Time>
+          <Type>平台小测-数值平均数</Type>
+          <Format>客观题测试</Format>
+        </Assessment>
+        <Assessment>
+          <Time>第二节课中</Time>
+          <Type>应用测试-平均数作用举例</Type>
+          <Format>主观回答+实例分析</Format>
+        </Assessment>
+      </Assessment_Activities>
+      <Evaluation_Method>平台自动评分+教师评价</Evaluation_Method>
+    </Post_assessment>
+
+    <!-- 6. 总结阶段 -->
+    <Summary>
+      <Time>第二节课最后10分钟</Time>
+      <Summary_Activities>
+        <Activity>课堂总结：数值平均数 vs 位置平均数</Activity>
+        <Activity>三种统计量的特点比较总结</Activity>
+        <Activity>思维导图绘制指导</Activity>
+      </Summary_Activities>
+      <Extended_Learning>
+        <Task>预习下一节课内容</Task>
+        <Task>平台发布学习问题</Task>
+        <Task>完成课后提问</Task>
+        <Task>讨论题：数据集中趋势测度方法比较</Task>
+      </Extended_Learning>
+    </Summary>
+
+  </BOPPPS_Flow>
+
+  <Teaching_Effect_Analysis>
+    <Expected_Outcome>学生能够准确理解并应用各种集中趋势测度方法</Expected_Outcome>
+    <Assessment_Method>课堂表现+测试成绩+思维导图质量</Assessment_Method>
+    <Feedback_Mechanism>平台数据统计+课堂互动观察</Feedback_Mechanism>
+  </Teaching_Effect_Analysis>
+
+</BOPPPS_Teaching_Design>
