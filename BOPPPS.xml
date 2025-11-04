@@ -1,40 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <BOPPPS_Teaching_Design>
-  <Course_Info>
-    <Course_Name>统计学基础-第四章数据集中趋势的测度</Course_Name>
+  <Course_Information>
+    <Course_Title>统计学基础 - 第四章 数据集中趋势的测度</Course_Title>
+    <Chapter>第四章 数据集中趋势的测度</Chapter>
     <Teaching_Platform>广科智课平台</Teaching_Platform>
-    <Teaching_Time>两节课，共90分钟</Teaching_Time>
-  </Course_Info>
+    <Class_Time>2课时（90分钟）</Class_Time>
+  </Course_Information>
 
-  <!-- BOPPPS教学模式六个阶段 -->
-  <BOPPPS_Flow>
+  <!-- B：导入阶段 -->
+  <Bridge_in>
+    <Time_Allocation>课前准备 + 课中5分钟</Time_Allocation>
+    <Activities>
+      <Pre_Class_Activity>
+        <Activity_ID>1</Activity_ID>
+        <Activity_Name>平台预习</Activity_Name>
+        <Content>观看教学视频、学习电子教材、学习第四章课件</Content>
+      </Pre_Class_Activity>
+      <Pre_Class_Activity>
+        <Activity_ID>2</Activity_ID>
+        <Activity_Name>课前准备</Activity_Name>
+        <Content>提出问题、完成课前测试</Content>
+      </Pre_Class_Activity>
+      <In_Class_Activity>
+        <Activity_ID>3</Activity_ID>
+        <Activity_Name>课堂导入</Activity_Name>
+        <Content>签到、出勤确认、课前五分钟回顾</Content>
+      </In_Class_Activity>
+    </Activities>
+  </Bridge_in>
 
-    <!-- 1. 导入阶段 -->
-    <Bridge_in>
-      <Time>课前+课中5分钟</Time>
-      <Activities>
-        <Activity>学生在平台学习视频、电子教材、课件</Activity>
-        <Activity>完成课前测试和问题收集</Activity>
-        <Activity>课堂签到和出勤确认</Activity>
-        <Activity>课前五分钟快速回顾</Activity>
-      </Activities>
-      <Objective>激发学习兴趣，建立知识连接</Objective>
-    </Bridge_in>
+  <!-- O：目标阶段 -->
+  <Objective>
+    <Time_Allocation>第一节课开始</Time_Allocation>
+    <Learning_Objectives>
+      <Objective_ID>1</Objective_ID>
+      <Objective_Content>理解平均数的概念、作用和应用场景</Objective_Content>
+      <Objective_ID>2</Objective_ID>
+      <Objective_Content>掌握算术平均数、几何平均数、调和平均数的计算方法</Objective_Content>
+      <Objective_ID>3</Objective_ID>
+      <Objective_Content>理解中位数、四分位数、众数的概念和特点</Objective_Content>
+      <Objective_ID>4</Objective_ID>
+      <Objective_Content>能够比较不同统计量的适用条件并进行正确选择</Objective_Content>
+    </Learning_Objectives>
+  </Objective>
 
-    <!-- 2. 目标阶段 -->
-    <Objective>
-      <Time>第一节课开始</Time>
-      <Learning_Objectives>
-        <Objective>理解平均数的概念、作用和计算方法</Objective>
-        <Objective>掌握算术平均数、几何平均数、调和平均数的计算和应用</Objective>
-        <Objective>理解中位数、四分位数、众数的概念和特点</Objective>
-        <Objective>能够比较不同统计量的适用场景</Objective>
-        <Objective>运用统计知识分析实际问题</Objective>
-      </Learning_Objectives>
-    </Objective>
+  <!-- P：前测阶段 -->
+  <Pre_Assessment>
+    <Time_Allocation>课前 + 第一节课10分钟</Time_Allocation>
+    <Assessment_Methods>
+      <Method>
+        <Method_Type>在线测试</Method_Type>
+        <Platform>广科智课平台</Platform>
+        <Content>第四章课前测试</Content>
+      </Method>
+      <Method>
+        <Method_Type>课堂互动</Method_Type>
+        <Content>案例分析参与度观察</Content>
+      </Method>
+    </Assessment_Methods>
+  </Pre_Assessment>
 
-    <!-- 3. 前测阶段 -->
-    <Pre_assessment>
-      <Time>课前+第一节课10分钟</Time>
+  <!-- P：参与式学习阶段 -->
+  <Participatory_Learning>
+    
+    <!-- 第一节课参与式学习 -->
+    <First_Session_Learning>
+      <Time_Allocation>第一节课35分钟</Time_Allocation>
+      <Teaching_Process>
+        <Step>
+          <Step_Number>1</Step_Number>
+          <Activity>案例分析</Activity>
+          <Duration>10分钟</Duration>
+          <Content>通过实际案例引入平均数概念</Content>
+        </Step>
+        <Step>
+          <Step_Number>2</Step_Number>
+          <Activity>新课讲解</Activity>
+          <Duration>20分钟</Duration>
+          <Content>
+            <Sub_Topic>平均数概念与作用</Sub_Topic>
+            <Sub_Topic>算术平均数（简单、加权）</Sub_Topic>
+            <Sub_Topic>几何平均数（概念、公式、应用）</Sub_Topic>
+            <Sub_Topic>调和平均数（简单、加权）</Sub_Topic>
+          </Content>
+        </Step>
+        <Step>
+          <Step_Number>3</Step_Number>
+          <Activity>课堂小测</Activity>
+          <Duration>5分钟</Duration>
+          <Content>数值平均数计算方法测试</Content>
+        </Step>
+      </Teaching_Process>
+    </First_Session_Learning>
+
+    <!-- 第二节课参与式学习 -->
+    <Second_Session_Learning>
+      <Time_Allocation>第二节课40分钟</Time_Allocation>
+      <Teaching_Process>
+        <Step>
+          <Step_Number>1</Step_Number>
+          <Activity>新课讲解</Activity>
+          <Duration>20分钟</Duration>
+          <Content>
+            <Sub_Topic>中位数概念与计算</Sub_Topic>
+            <Sub_Topic>四分位数计算方法</Sub_Topic>
+            <Sub_Topic>众数概念与特点</Sub_Topic>
+            <Sub_Topic>三种统计量比较分析</Sub_Topic>
+          </Content>
+        </Step>
+        <Step>
+          <Step_Number>2</Step_Number>
+          <Activity>课程思政</Activity>
+          <Duration>5分钟</Duration>
+          <Content>居民收入水平统计方法探讨 - 平均数vs中位数</Content>
+        </Step>
+        <Step>
+          <Step_Number>3</Step_Number>
+          <Activity>应用实践</Activity>
+          <Duration>10分钟</Duration>
+          <Content>结合个人生活举例说明平均数作用</Content>
+        </Step>
+      </Teaching_Process>
+    </Second_Session_Learning>
+  </Participatory_Learning>
+
+  <!-- P：后测阶段 -->
+  <Post_Assessment>
+    <Time_Allocation>第一节课5分钟 + 第二节课10分钟</Time_Allocation>
+    <Assessment_Tasks>
+      <Task>
+        <Session>第一节课</Session>
+        <Task_Type>课堂小测</Task_Type>
+        <Content>数值平均数计算方法</Content>
+        <Platform>广科智课平台</Platform>
+      </Task>
+      <Task>
+        <Session>第二节课</Session>
+        <Task_Type>应用测试</Task_Type>
+        <Content>平均数作用的生活实例分析</Content>
+        <Assessment_Method>平台提交+教师评价</Assessment_Method>
+      </Task>
+    </Assessment_Tasks>
+  </Post_Assessment>
+
+  <!-- S：总结阶段 -->
+  <Summary>
+    <Time_Allocation>第二节课最后10分钟</Time_Allocation>
+    <Summary_Content>
+      <Key_Point>数值平均数：算术平均、几何平均、调和平均</Key_Point>
+      <Key_Point>位置平均数：中位数、四分位数、众数</Key_Point>
+      <Key_Point>不同统计量的特点比较与应用选择</Key_Point>
+    </Summary_Content>
+    <Extended_Activities>
+      <Activity>
+        <Type>思维导图</Type>
+        <Content>绘制本章知识点思维导图</Content>
+      </Activity>
+      <Activity>
+        <Type>课后任务</Type>
+        <Content>
+          <Task>预习下一节课内容</Task>
+          <Task>平台发布学习问题</Task>
+          <Task>完成课后提问</Task>
+        </Content>
+      </Activity>
+    </Extended_Activities>
+  </Summary>
+
+  <Teaching_Effect_Evaluation>
+    <Evaluation_Methods>
+      <Method>课前测试成绩分析</Method>
+      <Method>课堂小测完成情况</Method>
+      <Method>课堂参与度观察</Method>
+      <Method>思维导图质量评价</Method>
+    </Evaluation_Methods>
+    <Expected_Outcomes>
+      <Outcome>学生能够准确理解集中趋势各统计量的概念</Outcome>
+      <Outcome>学生能够正确计算各类平均数</Outcome>
+      <Outcome>学生能够根据实际情况选择合适的统计量</Outcome>
+    </Expected_Outcomes>
+  </Teaching_Effect_Evaluation>
+
+</BOPPPS_Teaching_Design>      <Time>课前+第一节课10分钟</Time>
       <Assessment_Methods>
         <Method>课前在线测试</Method>
         <Method>案例分析参与度观察</Method>
