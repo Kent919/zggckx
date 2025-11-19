@@ -1,0 +1,16 @@
+<diagram>
+    <title>图二: 风险概率动态评估流程</title>
+    <flowchart>
+        <step id="1" description="初始化：基于ICC、数据敏感等级、主体信用等生成初始风险先验P0"/>
+        <step id="2" description="行为感知：实时采集技术证据（如加密流量特征、API调用模式、访问频次异常）"/>
+        <step id="3" description="集成先验构建：融合制度风险与技术异常概率"/>
+        <step id="4" description="似然函数生成：基于历史安全事件训练的ML模型输出L(Bt)"/>
+        <step id="5" description="贝叶斯后验更新"/>
+        <step id="6" description="动态干预：若Pt&gt;τt（阈值可随场景自适应调整），触发对应治理动作"/>
+        <connection from="1" to="2"/>
+        <connection from="2" to="3"/>
+        <connection from="3" to="4"/>
+        <connection from="4" to="5"/>
+        <connection from="5" to="6"/>
+    </flowchart>
+</diagram>
